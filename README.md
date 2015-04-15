@@ -1,6 +1,6 @@
-{{AppVeyor build status badge for master branch}}
+[![Build status](https://ci.appveyor.com/api/projects/status/7basx8plqk4s29yn/branch/master?svg=true)](https://ci.appveyor.com/project/PowerShell/xscsr/branch/master)
 
-#{{ModuleName}}
+# xSCSR
 
 {{Description}}
 
