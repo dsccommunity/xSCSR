@@ -17,4 +17,3 @@ class MSFT_xSCSRServerSetup : OMI_BaseResource
     [Required, Description("Name of the SQL Server analysis database instance to install to.")] String AnalysisDatabaseServerInstance;
     [Write, Description("Name of the analysis database that already exists, or that Setup will create.")] String AnalysisDatabaseName;
 };
-
