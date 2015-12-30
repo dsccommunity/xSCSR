@@ -10,7 +10,7 @@ Please check out common DSC Resources [contributing guidelines](https://github.c
 
 ## Resources
 
-* **xSCSRServerSetup installs the SR server.
+* **xSCSRServerSetup** installs the SR server.
 * **xSCSRServerUpdate** updates an SR server to Update Rollup 4.
 
 ### xSCSRServerSetup
