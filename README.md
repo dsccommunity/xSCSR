@@ -22,11 +22,11 @@ Please check out common DSC Resources [contributing guidelines](https://github.c
 * **SourcePath**: (Required) UNC path to the root of the source files for installation.
 * **SourceFolder**: Folder within the source path containing the source files for installation.
 * **SetupCredential**: (Required) Credential to be used to perform the installation.
-* **UseMicrosoftUpdate**: { 0 | 1 } 
-0: Do not opt in to Microsoft Update. 
+* **UseMicrosoftUpdate**: { 0 | 1 }
+0: Do not opt in to Microsoft Update.
 1: Opt in to Microsoft Update.
-* **SendCEIPReports**: { 0 | 1 } 
-0: Do not opt in to the Customer Experience Improvement Program (CEIP). 
+* **SendCEIPReports**: { 0 | 1 }
+0: Do not opt in to the Customer Experience Improvement Program (CEIP).
 1: Opt in to CEIP.
 * **InstallFolder**: Folder to install to.
 * **DatabaseServer**: (Required) Name of the database server.
@@ -49,7 +49,10 @@ Please check out common DSC Resources [contributing guidelines](https://github.c
 ## Versions
 
 ### Unreleased
-* Converted appveyor.yml to install Pester from PSGallery instead of from Chocolatey.
+
+* Update appveyor.yml to use the default template.
+* Added default template files .codecov.yml, .gitattributes, and .gitignore, and
+  .vscode folder.
 
 ### 1.3.0.0
 
@@ -76,11 +79,11 @@ SCSR-SingleServer.ps1 installs SR including prerequisites and SQL on a single se
 
 SCSR-SeperateSQL.ps1 installs SR on one server and SQL on a seperate server.
 
-Notes: 
+Notes:
 
 The samples require the use of [Windows Management Framework (WMF) 5.0 Preview](http://go.microsoft.com/fwlink/?LinkId=398175).
 
 All three examples use the exact same Configuration and just modify the behavior based on input ConfigurationData.
 
-In the Examples folder you will see a version of each file with "-TP" appended to the name. 
+In the Examples folder you will see a version of each file with "-TP" appended to the name.
 These are the equivalent examples for deployment of System Center Technical Preview on Windows Server Technical Preview.
